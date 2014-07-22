@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-ugly 0.10.10.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-11-09 15:57+0100\n"
+"POT-Creation-Date: 2014-05-21 12:49+0200\n"
 "PO-Revision-Date: 2009-03-10 16:12+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -48,11 +48,11 @@ msgstr "Misslyckades med att gå till kapitel %d för dvd-titel %d"
 msgid "Could not open DVD title %d. Interactive titles are not supported by this element"
 msgstr "Kunde inte öppna dvd-titel %d. Interaktiva titlar stöds inte av det här elementet"
 
-#: ext/dvdread/dvdreadsrc.c:985
+#: ext/dvdread/dvdreadsrc.c:986
 msgid "Could not read DVD. This may be because the DVD is encrypted and a DVD decryption library is not installed."
 msgstr ""
 
-#: ext/dvdread/dvdreadsrc.c:988
+#: ext/dvdread/dvdreadsrc.c:989
 #, fuzzy
 #| msgid "Could not open DVD"
 msgid "Could not read DVD."
