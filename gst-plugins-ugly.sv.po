@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-ugly 0.10.10.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 12:55+0200\n"
+"POT-Creation-Date: 2013-11-09 15:57+0100\n"
 "PO-Revision-Date: 2009-03-10 16:12+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -77,7 +77,7 @@ msgstr "Misslyckades med att konfigurera TwoLAME-kodaren. Kontrollera dina kodni
 msgid "This stream contains no data."
 msgstr "Den här strömmen innehåller inget data."
 
-#: gst/asfdemux/gstasfdemux.c:419 gst/asfdemux/gstasfdemux.c:1944
+#: gst/asfdemux/gstasfdemux.c:419 gst/asfdemux/gstasfdemux.c:1971
 msgid "Internal data stream error."
 msgstr "Fel i intern dataström."
 

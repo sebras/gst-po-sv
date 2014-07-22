@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-bad 0.10.13.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 13:05+0200\n"
+"POT-Creation-Date: 2013-11-09 15:49+0100\n"
 "PO-Revision-Date: 2009-08-12 20:29+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -104,7 +104,7 @@ msgstr "Internt fel i dataflöde."
 msgid "Generated file has a larger preroll time than its streams duration"
 msgstr ""
 
-#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1851
+#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1860
 #: gst/camerabin2/gstviewfinderbin.c:271
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."

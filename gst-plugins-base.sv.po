@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-base 0.10.28.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 12:31+0200\n"
+"POT-Creation-Date: 2013-11-09 12:14+0100\n"
 "PO-Revision-Date: 2010-06-07 18:17+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -79,18 +79,18 @@ msgstr "Kunde inte söka på cd-skivan."
 msgid "Could not read CD."
 msgstr "Kunde inte läsa cd-skivan."
 
-#: ext/ogg/gstoggdemux.c:4539
+#: ext/ogg/gstoggdemux.c:4559
 msgid "Internal data stream error."
 msgstr "Internt dataströmfel."
 
-#: gst/encoding/gstencodebin.c:1474 gst/playback/gstplaybin2.c:3066
-#: gst/playback/gstplaysink.c:1362 gst/playback/gstplaysink.c:1379
-#: gst/playback/gstplaysink.c:1699 gst/playback/gstplaysink.c:2262
-#: gst/playback/gstplaysink.c:2311 gst/playback/gstplaysink.c:2326
-#: gst/playback/gstplaysink.c:2351 gst/playback/gstplaysink.c:2383
-#: gst/playback/gstplaysink.c:2513 gst/playback/gstplaysink.c:2885
-#: gst/playback/gstplaysink.c:2894 gst/playback/gstplaysink.c:2903
-#: gst/playback/gstplaysink.c:2912 gst/playback/gstplaysink.c:4049
+#: gst/encoding/gstencodebin.c:1474 gst/playback/gstplaybin2.c:3070
+#: gst/playback/gstplaysink.c:1369 gst/playback/gstplaysink.c:1386
+#: gst/playback/gstplaysink.c:1706 gst/playback/gstplaysink.c:2269
+#: gst/playback/gstplaysink.c:2318 gst/playback/gstplaysink.c:2333
+#: gst/playback/gstplaysink.c:2358 gst/playback/gstplaysink.c:2390
+#: gst/playback/gstplaysink.c:2520 gst/playback/gstplaysink.c:2892
+#: gst/playback/gstplaysink.c:2901 gst/playback/gstplaysink.c:2910
+#: gst/playback/gstplaysink.c:2919 gst/playback/gstplaysink.c:4116
 #: gst/playback/gstplaysinkconvertbin.c:97
 #: gst/playback/gstplaysinkconvertbin.c:117
 #: gst/playback/gsturidecodebin.c:1448
@@ -111,67 +111,67 @@ msgstr "Kunde inte fastställa typ av ström"
 msgid "This appears to be a text file"
 msgstr "Den här ser ut att vara en textfil"
 
-#: gst/playback/gstplaybin2.c:5068
+#: gst/playback/gstplaybin2.c:5123
 #, fuzzy
 #| msgid "Could not create \"decodebin\" element."
 msgid "Could not create \"uridecodebin\" element."
 msgstr "Kunde inte skapa \"decodebin\"-element."
 
-#: gst/playback/gstplaysink.c:1793
+#: gst/playback/gstplaysink.c:1800
 #, c-format
 msgid "Both autovideosink and %s elements are missing."
 msgstr "Både autovideosink- och %s-elementet saknas."
 
-#: gst/playback/gstplaysink.c:1797
+#: gst/playback/gstplaysink.c:1804
 msgid "The autovideosink element is missing."
 msgstr "Elementet autovideosink saknas."
 
-#: gst/playback/gstplaysink.c:1802
+#: gst/playback/gstplaysink.c:1809
 #, c-format
 msgid "Configured videosink %s is not working."
 msgstr "Konfigurerat videosink %s fungerar inte."
 
-#: gst/playback/gstplaysink.c:1806
+#: gst/playback/gstplaysink.c:1813
 #, c-format
 msgid "Both autovideosink and %s elements are not working."
 msgstr "Det finns både autovideosink- och %s-element som inte fungerar."
 
-#: gst/playback/gstplaysink.c:1810
+#: gst/playback/gstplaysink.c:1817
 msgid "The autovideosink element is not working."
 msgstr "Elementet autovideosink fungerar inte."
 
-#: gst/playback/gstplaysink.c:2299
+#: gst/playback/gstplaysink.c:2306
 msgid "Custom text sink element is not usable."
 msgstr "Anpassat text sink-element är inte användbart."
 
-#: gst/playback/gstplaysink.c:2633
+#: gst/playback/gstplaysink.c:2640
 msgid "No volume control found"
 msgstr "Ingen volymkontroll hittades"
 
-#: gst/playback/gstplaysink.c:2663
+#: gst/playback/gstplaysink.c:2670
 #, c-format
 msgid "Both autoaudiosink and %s elements are missing."
 msgstr "Både autoaudiosink- och %s-elementet saknas."
 
-#: gst/playback/gstplaysink.c:2667
+#: gst/playback/gstplaysink.c:2674
 msgid "The autoaudiosink element is missing."
 msgstr "Elementet autoaudiosink saknas."
 
-#: gst/playback/gstplaysink.c:2672
+#: gst/playback/gstplaysink.c:2679
 #, c-format
 msgid "Configured audiosink %s is not working."
 msgstr "Konfigurerat audiosink %s fungerar inte."
 
-#: gst/playback/gstplaysink.c:2676
+#: gst/playback/gstplaysink.c:2683
 #, c-format
 msgid "Both autoaudiosink and %s elements are not working."
 msgstr "Det finns både autoaudiosink- och %s-element som inte fungerar.."
 
-#: gst/playback/gstplaysink.c:2680
+#: gst/playback/gstplaysink.c:2687
 msgid "The autoaudiosink element is not working."
 msgstr "Elementet autoaudiosink fungerar inte."
 
-#: gst/playback/gstplaysink.c:2988 gst/playback/gstplaysink.c:2993
+#: gst/playback/gstplaysink.c:2995 gst/playback/gstplaysink.c:3000
 msgid "Can't play a text file without video or visualizations."
 msgstr "Kan inte spela upp en textfil utan video eller visualiseringar."
 
@@ -261,157 +261,180 @@ msgstr "Förlustfri MSZH"
 msgid "Run-length encoding"
 msgstr "Körlängdskodning"
 
-#: gst-libs/gst/pbutils/descriptions.c:275
+#: gst-libs/gst/pbutils/descriptions.c:272
+#, fuzzy
+#| msgid "Time Line"
+msgid "Timed Text"
+msgstr "Tidslinje"
+
+#: gst-libs/gst/pbutils/descriptions.c:276
 #, fuzzy
 #| msgid "Title"
 msgid "Subtitle"
 msgstr "Titel"
 
-#: gst-libs/gst/pbutils/descriptions.c:276
+#: gst-libs/gst/pbutils/descriptions.c:277
 #, fuzzy
 #| msgid "TMPlayer subtitle format"
 msgid "MPL2 subtitle format"
 msgstr "Undertextformatet TMPlayer"
 
-#: gst-libs/gst/pbutils/descriptions.c:277
+#: gst-libs/gst/pbutils/descriptions.c:278
 #, fuzzy
 #| msgid "Sami subtitle format"
 msgid "DKS subtitle format"
 msgstr "Undertextformatet Sami"
 
-#: gst-libs/gst/pbutils/descriptions.c:278
+#: gst-libs/gst/pbutils/descriptions.c:279
 #, fuzzy
 #| msgid "Kate subtitle format"
 msgid "QTtext subtitle format"
 msgstr "Undertextformatet Kate"
 
-#: gst-libs/gst/pbutils/descriptions.c:279
+#: gst-libs/gst/pbutils/descriptions.c:280
 msgid "Sami subtitle format"
 msgstr "Undertextformatet Sami"
 
-#: gst-libs/gst/pbutils/descriptions.c:280
+#: gst-libs/gst/pbutils/descriptions.c:281
 msgid "TMPlayer subtitle format"
 msgstr "Undertextformatet TMPlayer"
 
-#: gst-libs/gst/pbutils/descriptions.c:284
+#: gst-libs/gst/pbutils/descriptions.c:285
 msgid "Kate subtitle format"
 msgstr "Undertextformatet Kate"
 
-#: gst-libs/gst/pbutils/descriptions.c:347
-#: gst-libs/gst/pbutils/descriptions.c:350
-#: gst-libs/gst/pbutils/descriptions.c:393
+#: gst-libs/gst/pbutils/descriptions.c:349
+#: gst-libs/gst/pbutils/descriptions.c:352
+#: gst-libs/gst/pbutils/descriptions.c:402
 #, fuzzy
 #| msgid "Uncompressed YUV"
 msgid "Uncompressed video"
 msgstr "Okomprimerad YUV"
 
-#: gst-libs/gst/pbutils/descriptions.c:355
+#: gst-libs/gst/pbutils/descriptions.c:357
 #, fuzzy
 #| msgid "Uncompressed Gray Image"
 msgid "Uncompressed gray"
 msgstr "Okomprimerad gråskalebild"
 
-#: gst-libs/gst/pbutils/descriptions.c:381
+#: gst-libs/gst/pbutils/descriptions.c:380
 #, fuzzy, c-format
-#| msgid "Uncompressed YUV"
-msgid "Uncompressed %s YUV %s"
-msgstr "Okomprimerad YUV"
+#| msgid "Uncompressed packed YUV 4:2:2"
+msgid "Uncompressed packed YUV %s"
+msgstr "Okomprimerad paketerad YUV 4:2:2"
 
-#: gst-libs/gst/pbutils/descriptions.c:390
+#: gst-libs/gst/pbutils/descriptions.c:382
 #, fuzzy, c-format
-#| msgid "Uncompressed palettized %d-bit %s"
-msgid "Uncompressed %s%d-bit %s"
+#| msgid "Uncompressed planar YUV 4:2:0"
+msgid "Uncompressed semi-planar YUV %s"
+msgstr "Okomprimerad plan YUV 4:2:0"
+
+#: gst-libs/gst/pbutils/descriptions.c:384
+#, fuzzy, c-format
+#| msgid "Uncompressed planar YUV 4:2:0"
+msgid "Uncompressed planar YUV %s"
+msgstr "Okomprimerad plan YUV 4:2:0"
+
+#: gst-libs/gst/pbutils/descriptions.c:395
+#, c-format
+msgid "Uncompressed palettized %d-bit %s"
 msgstr "Okomprimerad palettiserad %d-bitars %s"
 
-#: gst-libs/gst/pbutils/descriptions.c:443
+#: gst-libs/gst/pbutils/descriptions.c:398
+#, fuzzy, c-format
+#| msgid "Uncompressed palettized %d-bit %s"
+msgid "Uncompressed %d-bit %s"
+msgstr "Okomprimerad palettiserad %d-bitars %s"
+
+#: gst-libs/gst/pbutils/descriptions.c:452
 #, c-format
 msgid "DivX MPEG-4 Version %d"
 msgstr "DivX MPEG-4 version %d"
 
-#: gst-libs/gst/pbutils/descriptions.c:664
+#: gst-libs/gst/pbutils/descriptions.c:682
 #, fuzzy
 #| msgid "Uncompressed YUV"
 msgid "Uncompressed audio"
 msgstr "Okomprimerad YUV"
 
-#: gst-libs/gst/pbutils/descriptions.c:670
+#: gst-libs/gst/pbutils/descriptions.c:688
 #, fuzzy, c-format
 #| msgid "Raw %d-bit PCM audio"
 msgid "Raw %d-bit %s audio"
 msgstr "Rått %d-bitars PCM-ljud"
 
-#: gst-libs/gst/pbutils/descriptions.c:757
+#: gst-libs/gst/pbutils/descriptions.c:788
 msgid "Audio CD source"
 msgstr "Ljud-cd-källa"
 
-#: gst-libs/gst/pbutils/descriptions.c:760
+#: gst-libs/gst/pbutils/descriptions.c:791
 msgid "DVD source"
 msgstr "Dvd-källa"
 
-#: gst-libs/gst/pbutils/descriptions.c:763
+#: gst-libs/gst/pbutils/descriptions.c:794
 msgid "Real Time Streaming Protocol (RTSP) source"
 msgstr "Real Time Streaming Protocol-källa (RTSP)"
 
-#: gst-libs/gst/pbutils/descriptions.c:767
+#: gst-libs/gst/pbutils/descriptions.c:798
 msgid "Microsoft Media Server (MMS) protocol source"
 msgstr "Microsoft Media Server-protokollkälla (MMS)"
 
-#: gst-libs/gst/pbutils/descriptions.c:775
+#: gst-libs/gst/pbutils/descriptions.c:806
 #, c-format
 msgid "%s protocol source"
 msgstr "%s-protokollkälla"
 
-#: gst-libs/gst/pbutils/descriptions.c:847
+#: gst-libs/gst/pbutils/descriptions.c:878
 #, c-format
 msgid "%s video RTP depayloader"
 msgstr "%s RTP-uppackare (video)"
 
-#: gst-libs/gst/pbutils/descriptions.c:849
+#: gst-libs/gst/pbutils/descriptions.c:880
 #, c-format
 msgid "%s audio RTP depayloader"
 msgstr "%s RTP-uppackare (ljud)"
 
-#: gst-libs/gst/pbutils/descriptions.c:851
+#: gst-libs/gst/pbutils/descriptions.c:882
 #, c-format
 msgid "%s RTP depayloader"
 msgstr "%s RTP-uppackare"
 
-#: gst-libs/gst/pbutils/descriptions.c:858
+#: gst-libs/gst/pbutils/descriptions.c:889
 #, c-format
 msgid "%s demuxer"
 msgstr "%s-avmultiplexor"
 
-#: gst-libs/gst/pbutils/descriptions.c:860
+#: gst-libs/gst/pbutils/descriptions.c:891
 #, c-format
 msgid "%s decoder"
 msgstr "%s-avkodare"
 
-#: gst-libs/gst/pbutils/descriptions.c:898
+#: gst-libs/gst/pbutils/descriptions.c:929
 #, c-format
 msgid "%s video RTP payloader"
 msgstr "%s RTP-packare (video)"
 
-#: gst-libs/gst/pbutils/descriptions.c:900
+#: gst-libs/gst/pbutils/descriptions.c:931
 #, c-format
 msgid "%s audio RTP payloader"
 msgstr "%s RTP-packare (ljud)"
 
-#: gst-libs/gst/pbutils/descriptions.c:902
+#: gst-libs/gst/pbutils/descriptions.c:933
 #, c-format
 msgid "%s RTP payloader"
 msgstr "%s RTP-packare"
 
-#: gst-libs/gst/pbutils/descriptions.c:909
+#: gst-libs/gst/pbutils/descriptions.c:940
 #, c-format
 msgid "%s muxer"
 msgstr "%s-multiplexor"
 
-#: gst-libs/gst/pbutils/descriptions.c:911
+#: gst-libs/gst/pbutils/descriptions.c:942
 #, c-format
 msgid "%s encoder"
 msgstr "%s-kodare"
 
-#: gst-libs/gst/pbutils/descriptions.c:943
+#: gst-libs/gst/pbutils/descriptions.c:974
 #, c-format
 msgid "GStreamer element %s"
 msgstr "GStreamer-elementet %s"
@@ -662,6 +685,37 @@ msgstr "Musikal"
 msgid "Initial key in which the sound starts"
 msgstr ""
 
+#: tools/gst-play.c:170
+#, fuzzy
+#| msgid "Recording..."
+msgid "Buffering..."
+msgstr "Spelar in..."
+
+#: tools/gst-play.c:446
+msgid "Print version information and exit"
+msgstr ""
+
+#: tools/gst-play.c:448
+msgid "Video sink to use (default is autovideosink)"
+msgstr ""
+
+#: tools/gst-play.c:450
+msgid "Audio sink to use (default is autoaudiosink)"
+msgstr ""
+
+#: tools/gst-play.c:452
+msgid "Enable gapless playback"
+msgstr ""
+
+#: tools/gst-play.c:488
+#, c-format
+msgid "Usage: %s FILE1|URI1 [FILE2|URI2] [FILE3|URI3] ..."
+msgstr ""
+
+#: tools/gst-play.c:492
+msgid "You must provide at least one filename or URI to play."
+msgstr ""
+
 #~ msgid "Master"
 #~ msgstr "Övergripande"
 
@@ -740,14 +794,8 @@ msgstr ""
 #~ msgid "Connection to %s:%d refused."
 #~ msgstr "Anslutningen till %s:%d nekades."
 
-#~ msgid "Uncompressed planar YUV 4:2:0"
-#~ msgstr "Okomprimerad plan YUV 4:2:0"
-
 #~ msgid "Uncompressed planar YVU 4:2:0"
 #~ msgstr "Okomprimerad plan YVU 4:2:0"
-
-#~ msgid "Uncompressed packed YUV 4:2:2"
-#~ msgstr "Okomprimerad paketerad YUV 4:2:2"
 
 #~ msgid "Uncompressed packed YUV 4:1:0"
 #~ msgstr "Okomprimerad paketerad YUV 4:1:0"
@@ -1543,9 +1591,6 @@ msgstr ""
 #~ msgid "_Extra track data:"
 #~ msgstr "_Extra spårdata:"
 
-#~ msgid "Time Line"
-#~ msgstr "Tidslinje"
-
 #~ msgid "Line for displaying the time elapsed for the current track"
 #~ msgstr "Linje för visning av den tid som gått tid för aktuellt spår"
 
@@ -1914,9 +1959,6 @@ msgstr ""
 
 #~ msgid "%s.%s - Sound Recorder"
 #~ msgstr "%s.%s - Ljudinspelare"
-
-#~ msgid "Recording..."
-#~ msgstr "Spelar in..."
 
 #~ msgid "Record as"
 #~ msgstr "Spela in som"

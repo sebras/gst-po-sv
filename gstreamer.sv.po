@@ -1,16 +1,17 @@
 # Swedish messages for gstreamer.
-# Copyright (C) 2004-2011 Free Software Foundation, Inc.
+# Copyright © 2004-2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gstreamer package.
 # Christian Rose <menthos@menthos.com>, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010, 2011.
+# Sebastian Rasmussen <sebras@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer 0.10.31.2\n"
+"Project-Id-Version: gstreamer 1.2.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 12:33+0200\n"
-"PO-Revision-Date: 2011-01-09 19:46+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2013-11-09 12:05+0100\n"
+"PO-Revision-Date: 2014-05-04 12:11+0100\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +32,8 @@ msgid "Print available debug categories and exit"
 msgstr "Skriv ut tillgängliga felsökningskategorier och avsluta"
 
 #: gst/gst.c:243
-msgid "Default debug level from 1 (only error) to 5 (anything) or 0 for no output"
-msgstr "Standardfelsökningsnivå från 1 (endast fel) till 5 (allting) eller 0 för ingen utmatning"
+msgid "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
+msgstr "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för ingen utmatning"
 
 #: gst/gst.c:245
 msgid "LEVEL"
@@ -52,7 +53,7 @@ msgstr "Inaktivera färglagd felsökningsutmatning"
 
 #: gst/gst.c:256
 msgid "Changes coloring mode of the debug log. Possible modes: off, on, disable, auto, unix"
-msgstr ""
+msgstr "Ändrar färgläggning av felsökningsutskrifter. Möjliga alternativ: off, on, disable, auto, unix"
 
 #: gst/gst.c:260
 msgid "Disable debugging"
@@ -118,8 +119,6 @@ msgstr "Internt GStreamer-fel: koden inte implementerad."
 msgid "GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure."
 msgstr "GStreamer-fel: tillståndsändring misslyckades och några element misslyckades med att skicka ett korrekt felmeddelande med anledningen till felet."
 
-# Richard Hult säger: "Pad" i gstreamer betyder ungefär "kontakt", man
-# kopplar ihop två element via deras "pads".
 #: gst/gsterror.c:142
 msgid "Internal GStreamer error: pad problem."
 msgstr "Internt GStreamer-fel: kontaktproblem."
@@ -129,10 +128,8 @@ msgid "Internal GStreamer error: thread problem."
 msgstr "Internt GStreamer-fel: trådproblem."
 
 #: gst/gsterror.c:146
-#, fuzzy
-#| msgid "Internal GStreamer error: negotiation problem."
 msgid "GStreamer error: negotiation problem."
-msgstr "Internt GStreamer-fel: förhandlingsproblem."
+msgstr "GStreamer-fel: förhandlingsproblem."
 
 #: gst/gsterror.c:148
 msgid "Internal GStreamer error: event problem."
@@ -142,7 +139,6 @@ msgstr "Internt GStreamer-fel: händelseproblem."
 msgid "Internal GStreamer error: seek problem."
 msgstr "Internt GStreamer-fel: spolningsproblem."
 
-# Osäker. Jag tror "caps" är kort för "capabilities".
 #: gst/gsterror.c:152
 msgid "Internal GStreamer error: caps problem."
 msgstr "Internt GStreamer-fel: förmågeproblem."
@@ -156,10 +152,8 @@ msgid "Your GStreamer installation is missing a plug-in."
 msgstr "Din GStreamer-installation saknar en insticksmodul."
 
 #: gst/gsterror.c:158
-#, fuzzy
-#| msgid "Internal GStreamer error: clock problem."
 msgid "GStreamer error: clock problem."
-msgstr "Internt GStreamer-fel: klockproblem."
+msgstr "GStreamer-fel: klockproblem."
 
 #: gst/gsterror.c:160
 msgid "This application is trying to use GStreamer functionality that has been disabled."
@@ -501,14 +495,12 @@ msgid "URI to the copyright notice of the data"
 msgstr "Uri till copyrightnotis för datat"
 
 #: gst/gsttaglist.c:203
-#, fuzzy
-#| msgid "encoder"
 msgid "encoded by"
-msgstr "kodare"
+msgstr "kodat av"
 
 #: gst/gsttaglist.c:203
 msgid "name of the encoding person or organization"
-msgstr ""
+msgstr "namn på den person eller organisation som kodat"
 
 #: gst/gsttaglist.c:207
 msgid "contact"
@@ -704,20 +696,16 @@ msgid "language code"
 msgstr "språkkod"
 
 #: gst/gsttaglist.c:271
-#, fuzzy
-#| msgid "language code for this stream, conforming to ISO-639-1"
 msgid "language code for this stream, conforming to ISO-639-1 or ISO-639-2"
-msgstr "språkkod för detta ström, enligt ISO-639-1"
+msgstr "språkkod för denna ström, enligt ISO-639-1 eller ISO-639-2"
 
 #: gst/gsttaglist.c:274
-#, fuzzy
-#| msgid "language code"
 msgid "language name"
-msgstr "språkkod"
+msgstr "språknamn"
 
 #: gst/gsttaglist.c:275
 msgid "freeform name of the language this stream is in"
-msgstr ""
+msgstr "namn på det språk som denna ström använder"
 
 #: gst/gsttaglist.c:277
 msgid "image"
@@ -813,8 +801,6 @@ msgid "geo location sublocation"
 msgstr "specifik plats för geografisk plats"
 
 #: gst/gsttaglist.c:319
-#, fuzzy
-#| msgid "a location whithin a city where the media has been produced or created (e.g. the neighborhood)"
 msgid "a location within a city where the media has been produced or created (e.g. the neighborhood)"
 msgstr "en plats inom en stad där mediet har producerats eller skapats (t.ex. närområde)"
 
@@ -958,19 +944,19 @@ msgstr "Hur bilden ska roteras eller vändas före visning"
 
 #: gst/gsttaglist.c:392
 msgid "publisher"
-msgstr ""
+msgstr "utgivare"
 
 #: gst/gsttaglist.c:393
 msgid "Name of the label or publisher"
-msgstr ""
+msgstr "Namn på förlag eller utgivare"
 
 #: gst/gsttaglist.c:396
 msgid "interpreted-by"
-msgstr ""
+msgstr "tolkad av"
 
 #: gst/gsttaglist.c:397
 msgid "Information about the people behind a remix and similar interpretations"
-msgstr ""
+msgstr "Information om människorna bakom en remix eller liknande tolkning"
 
 #: gst/gsttaglist.c:437
 msgid ", "
@@ -979,19 +965,19 @@ msgstr ", "
 #: gst/gsturi.c:591
 #, c-format
 msgid "No URI handler for the %s protocol found"
-msgstr ""
+msgstr "Ingen uri-hanterare hittades för %s-protokollet"
 
 #: gst/gsturi.c:764
 #, c-format
 msgid "URI scheme '%s' not supported"
-msgstr ""
+msgstr "Uri-schema \"%s\" saknar stöd"
 
-#: gst/gstutils.c:2352 tools/gst-launch.c:324
+#: gst/gstutils.c:2352 tools/gst-launch.c:321
 #, c-format
 msgid "ERROR: from element %s: %s\n"
 msgstr "FEL: från element %s: %s\n"
 
-#: gst/gstutils.c:2354 tools/gst-launch.c:326 tools/gst-launch.c:660
+#: gst/gstutils.c:2354 tools/gst-launch.c:323 tools/gst-launch.c:645
 #, c-format
 msgid ""
 "Additional debug info:\n"
@@ -1000,7 +986,6 @@ msgstr ""
 "Ytterligare felsökningsinformation:\n"
 "%s\n"
 
-# Osäker.
 #: gst/parse/grammar.y:228
 #, c-format
 msgid "specified empty bin \"%s\", not allowed"
@@ -1031,7 +1016,6 @@ msgstr "kunde inte länka %s till %s"
 msgid "no element \"%s\""
 msgstr "inget \"%s\"-element"
 
-# Osäker. Jag tror "caps" är kort för "capabilities".
 #: gst/parse/grammar.y:724
 #, c-format
 msgid "could not parse caps \"%s\""
@@ -1082,19 +1066,19 @@ msgstr "Internt dataflödesproblem."
 msgid "Internal data stream error."
 msgstr "Internt fel i dataström."
 
-#: libs/gst/base/gstbasesink.c:3933 libs/gst/base/gstbasesrc.c:2856
-#: libs/gst/base/gstbasesrc.c:2865 plugins/elements/gstqueue.c:1275
-#: plugins/elements/gstqueue2.c:2691
+#: libs/gst/base/gstbasesink.c:3933 libs/gst/base/gstbasesrc.c:2864
+#: libs/gst/base/gstbasesrc.c:2873 plugins/elements/gstqueue.c:1275
+#: plugins/elements/gstqueue2.c:2701
 msgid "Internal data flow error."
 msgstr "Internt fel i dataflöde."
 
-#: libs/gst/base/gstbasesrc.c:2473
+#: libs/gst/base/gstbasesrc.c:2477
 msgid "Internal clock error."
 msgstr "Internt klockfel."
 
-#: libs/gst/base/gstbasesrc.c:2501
+#: libs/gst/base/gstbasesrc.c:2505
 msgid "Failed to map buffer."
-msgstr ""
+msgstr "Misslyckades med att mappa buffert."
 
 #: plugins/elements/gstcapsfilter.c:103
 msgid "Filter caps"
@@ -1132,7 +1116,7 @@ msgstr "Fel vid skrivning till filen \"%s\"."
 msgid "No file name specified for reading."
 msgstr "Inget filnamn angivet för läsning."
 
-#: plugins/elements/gstfilesrc.c:512 plugins/elements/gstqueue2.c:1484
+#: plugins/elements/gstfilesrc.c:512 plugins/elements/gstqueue2.c:1494
 #, c-format
 msgid "Could not open file \"%s\" for reading."
 msgstr "Kunde inte öppna filen \"%s\" för läsning."
@@ -1156,20 +1140,19 @@ msgstr "Filen \"%s\" är ett uttag."
 msgid "Failed after iterations as requested."
 msgstr "Misslyckades efter iterationer som begärt."
 
-#: plugins/elements/gstqueue2.c:1470
+#: plugins/elements/gstqueue2.c:1480
 msgid "No Temp directory specified."
 msgstr "Ingen temporärkatalog angiven."
 
-#: plugins/elements/gstqueue2.c:1476
+#: plugins/elements/gstqueue2.c:1486
 #, c-format
 msgid "Could not create temp file \"%s\"."
 msgstr "Kunde inte skapa temporärfilen \"%s\"."
 
-#: plugins/elements/gstqueue2.c:1878
+#: plugins/elements/gstqueue2.c:1888
 msgid "Error while writing to download file."
 msgstr "Fel vid skrivning till hämtningsfilen."
 
-# Osäker. Jag tror "caps" är kort för "capabilities".
 #: plugins/elements/gsttypefindelement.c:204
 msgid "caps"
 msgstr "förmågor"
@@ -1190,7 +1173,7 @@ msgstr "tvinga förmågor"
 msgid "force caps without doing a typefind"
 msgstr "tvinga förmågor utan att göra en typefind"
 
-#: plugins/elements/gsttypefindelement.c:1038
+#: plugins/elements/gsttypefindelement.c:1039
 msgid "Stream contains no data."
 msgstr "Strömmen innehåller inget data."
 
@@ -1281,11 +1264,11 @@ msgstr "Lista insticksmodulens innehåll"
 
 #: tools/gst-inspect.c:1554
 msgid "Check if the specified element or plugin exists"
-msgstr ""
+msgstr "Kontrollera om det angivna elementet eller insticksmodulen existerar"
 
 #: tools/gst-inspect.c:1557
 msgid "When checking if an element or plugin exists, also check that its version is at least the version specified"
-msgstr ""
+msgstr "När existensen av ett element eller insticksmodul kontrolleras, kontrollera även att dess version åtminstone är den angivna"
 
 #: tools/gst-inspect.c:1561
 msgid "Print supported URI schemes, with the elements that implement them"
@@ -1301,73 +1284,69 @@ msgstr "Kunde inte läsa in fil för insticksmodul: %s\n"
 msgid "No such element or plugin '%s'\n"
 msgstr "Inget sådant element eller insticksmodul \"%s\"\n"
 
-#: tools/gst-launch.c:251
+#: tools/gst-launch.c:248
 msgid "Index statistics"
-msgstr ""
+msgstr "Indexstatistik"
 
-#: tools/gst-launch.c:541
+#: tools/gst-launch.c:526
 #, c-format
 msgid "Got message #%u from element \"%s\" (%s): "
 msgstr "Fick meddelande #%u från elementet \"%s\" (%s): "
 
-#: tools/gst-launch.c:545
+#: tools/gst-launch.c:530
 #, c-format
 msgid "Got message #%u from pad \"%s:%s\" (%s): "
 msgstr "Fick meddelande #%u från kontakten (pad) \"%s:%s\" (%s): "
 
-#: tools/gst-launch.c:549
+#: tools/gst-launch.c:534
 #, c-format
 msgid "Got message #%u from object \"%s\" (%s): "
 msgstr "Fick meddelande #%u från objektet \"%s\" (%s): "
 
-#: tools/gst-launch.c:553
+#: tools/gst-launch.c:538
 #, c-format
 msgid "Got message #%u (%s): "
 msgstr "Fick meddelande #%u (%s): "
 
-#: tools/gst-launch.c:585
+#: tools/gst-launch.c:570
 #, c-format
 msgid "Got EOS from element \"%s\".\n"
 msgstr "Fick EOS från element \"%s\".\n"
 
-#: tools/gst-launch.c:594
+#: tools/gst-launch.c:579
 #, c-format
 msgid "FOUND TAG      : found by element \"%s\".\n"
 msgstr "HITTADE TAGG   : hittat av elementet \"%s\".\n"
 
-#: tools/gst-launch.c:597
+#: tools/gst-launch.c:582
 #, c-format
 msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
 msgstr "HITTADE TAGG   : hittat av kontakten \"%s:%s\".\n"
 
-#: tools/gst-launch.c:600
+#: tools/gst-launch.c:585
 #, c-format
 msgid "FOUND TAG      : found by object \"%s\".\n"
 msgstr "HITTADE TAGG   : hittat av objektet \"%s\".\n"
 
-#: tools/gst-launch.c:603
+#: tools/gst-launch.c:588
 msgid "FOUND TAG\n"
 msgstr "HITTADE TAGG\n"
 
-#: tools/gst-launch.c:618
-#, fuzzy, c-format
-#| msgid "FOUND TAG      : found by element \"%s\".\n"
+#: tools/gst-launch.c:603
+#, c-format
 msgid "FOUND TOC      : found by element \"%s\".\n"
-msgstr "HITTADE TAGG   : hittat av elementet \"%s\".\n"
+msgstr "HITTADE INNEHÅLL : hittat av elementet \"%s\".\n"
 
-#: tools/gst-launch.c:621
-#, fuzzy, c-format
-#| msgid "FOUND TAG      : found by object \"%s\".\n"
+#: tools/gst-launch.c:606
+#, c-format
 msgid "FOUND TOC      : found by object \"%s\".\n"
-msgstr "HITTADE TAGG   : hittat av objektet \"%s\".\n"
+msgstr "HITTADE INNEHÅLL : hittat av objektet \"%s\".\n"
 
-#: tools/gst-launch.c:624
-#, fuzzy
-#| msgid "FOUND TAG\n"
+#: tools/gst-launch.c:609
 msgid "FOUND TOC\n"
-msgstr "HITTADE TAGG\n"
+msgstr "HITTADE INNEHÅLL\n"
 
-#: tools/gst-launch.c:641
+#: tools/gst-launch.c:626
 #, c-format
 msgid ""
 "INFO:\n"
@@ -1376,197 +1355,189 @@ msgstr ""
 "INFO:\n"
 "%s\n"
 
-#: tools/gst-launch.c:658
+#: tools/gst-launch.c:643
 #, c-format
 msgid "WARNING: from element %s: %s\n"
 msgstr "VARNING: från elementet %s: %s\n"
 
-#: tools/gst-launch.c:693
+#: tools/gst-launch.c:678
 msgid "Prerolled, waiting for buffering to finish...\n"
 msgstr "Förinläst, väntar på att buffringen ska bli färdig...\n"
 
-#: tools/gst-launch.c:697
-#, fuzzy
-#| msgid "Prerolled, waiting for buffering to finish...\n"
+#: tools/gst-launch.c:682
 msgid "Prerolled, waiting for progress to finish...\n"
-msgstr "Förinläst, väntar på att buffringen ska bli färdig...\n"
+msgstr "Förinläst, väntar på att förloppet ska avslutas...\n"
 
-#: tools/gst-launch.c:709
+#: tools/gst-launch.c:694
 msgid "buffering..."
 msgstr "buffrar..."
 
-#: tools/gst-launch.c:720
+#: tools/gst-launch.c:705
 msgid "Done buffering, setting pipeline to PLAYING ...\n"
 msgstr "Färdig med buffringen, ställer in rörledningen till PLAYING...\n"
 
-#: tools/gst-launch.c:728
+#: tools/gst-launch.c:713
 msgid "Buffering, setting pipeline to PAUSED ...\n"
 msgstr "Buffrar, ställer in rörledningen till PAUSED...\n"
 
-#: tools/gst-launch.c:737
+#: tools/gst-launch.c:722
 msgid "Redistribute latency...\n"
 msgstr "Fördröjning för vidaresändning...\n"
 
-#: tools/gst-launch.c:748
+#: tools/gst-launch.c:733
 #, c-format
 msgid "Setting state to %s as requested by %s...\n"
 msgstr "Ställer in tillståndet till %s enligt begäran från %s...\n"
 
-#: tools/gst-launch.c:764
+#: tools/gst-launch.c:749
 msgid "Interrupt: Stopping pipeline ...\n"
 msgstr "Avbrott: Stoppar rörledningen ...\n"
 
-#: tools/gst-launch.c:793
+#: tools/gst-launch.c:778
 #, c-format
 msgid "Progress: (%s) %s\n"
-msgstr ""
+msgstr "Förlopp: (%s) %s\n"
 
-#: tools/gst-launch.c:806
-#, fuzzy, c-format
-#| msgid "no element \"%s\""
+#: tools/gst-launch.c:791
+#, c-format
 msgid "Missing element: %s\n"
-msgstr "inget \"%s\"-element"
+msgstr "Element saknas: \"%s\"\n"
 
-#: tools/gst-launch.c:818
-#, fuzzy, c-format
-#| msgid "WARNING: from element %s: %s\n"
-msgid "Got context from element '%s': %s\n"
-msgstr "VARNING: från elementet %s: %s\n"
+#: tools/gst-launch.c:805
+#, c-format
+msgid "Got context from element '%s': %s=%s\n"
+msgstr "Fick kontext från elementet '%s': %s=%s\n"
 
-#: tools/gst-launch.c:954
+#: tools/gst-launch.c:891
 msgid "Output tags (also known as metadata)"
 msgstr "Utmatningstaggar (även känt som metadata)"
 
-#: tools/gst-launch.c:956
+#: tools/gst-launch.c:893
 msgid "Output TOC (chapters and editions)"
-msgstr ""
+msgstr "Skriv ut INNEHÅLL (kapitel och utgåvor)"
 
-#: tools/gst-launch.c:958
+#: tools/gst-launch.c:895
 msgid "Output status information and property notifications"
 msgstr "Skriv ut statusinformation och egenskapsnotifieringar"
 
-#: tools/gst-launch.c:960
+#: tools/gst-launch.c:897
 msgid "Do not print any progress information"
 msgstr "Skriv inte ut någon förloppsinformation"
 
-#: tools/gst-launch.c:962
+#: tools/gst-launch.c:899
 msgid "Output messages"
 msgstr "Utmatningsmeddelanden"
 
-#: tools/gst-launch.c:964
+#: tools/gst-launch.c:901
 msgid "Do not output status information of TYPE"
 msgstr "Skriv inte ut statusinformation av TYP"
 
-#: tools/gst-launch.c:964
+#: tools/gst-launch.c:901
 msgid "TYPE1,TYPE2,..."
 msgstr "TYP1,TYP2,..."
 
-#: tools/gst-launch.c:966
+#: tools/gst-launch.c:903
 msgid "Do not install a fault handler"
 msgstr "Installera inte en felhanterare"
 
-#: tools/gst-launch.c:968
+#: tools/gst-launch.c:905
 msgid "Force EOS on sources before shutting the pipeline down"
 msgstr "Tvinga EOS på källor innan rörledningen stängs av"
 
-#: tools/gst-launch.c:971
+#: tools/gst-launch.c:908
 msgid "Gather and print index statistics"
-msgstr ""
+msgstr "Samla och skriv ut indexstatistik"
 
-#: tools/gst-launch.c:1032
+#: tools/gst-launch.c:969
 #, c-format
 msgid "ERROR: pipeline could not be constructed: %s.\n"
 msgstr "FEL: rörledningen kunde inte konstrueras: %s.\n"
 
-#: tools/gst-launch.c:1036
+#: tools/gst-launch.c:973
 msgid "ERROR: pipeline could not be constructed.\n"
 msgstr "FEL: rörledningen kunde inte konstrueras.\n"
 
 # Felrapporterat i http://bugzilla.gnome.org/show_bug.cgi?id=137431
-#: tools/gst-launch.c:1040
+#: tools/gst-launch.c:977
 #, c-format
 msgid "WARNING: erroneous pipeline: %s\n"
 msgstr "VARNING: felaktig rörledning: %s\n"
 
-#: tools/gst-launch.c:1063
+#: tools/gst-launch.c:1000
 msgid "ERROR: the 'pipeline' element wasn't found.\n"
 msgstr "FEL: \"pipeline\"-elementet hittades inte.\n"
 
-#: tools/gst-launch.c:1090 tools/gst-launch.c:1186
+#: tools/gst-launch.c:1027 tools/gst-launch.c:1123
 msgid "Setting pipeline to PAUSED ...\n"
 msgstr "Ställer in rörledningen till PAUSED...\n"
 
-#: tools/gst-launch.c:1095
+#: tools/gst-launch.c:1032
 msgid "ERROR: Pipeline doesn't want to pause.\n"
 msgstr "FEL: Rörledningen vill inte göra paus.\n"
 
-#: tools/gst-launch.c:1100
+#: tools/gst-launch.c:1037
 msgid "Pipeline is live and does not need PREROLL ...\n"
 msgstr "Rörledningen lever och behöver inte PREROLL ...\n"
 
-#: tools/gst-launch.c:1104
+#: tools/gst-launch.c:1041
 msgid "Pipeline is PREROLLING ...\n"
 msgstr "Rörledningen utför PREROLL...\n"
 
-#: tools/gst-launch.c:1107 tools/gst-launch.c:1120
+#: tools/gst-launch.c:1044 tools/gst-launch.c:1057
 msgid "ERROR: pipeline doesn't want to preroll.\n"
 msgstr "FEL: rörledningen vill inte utföra preroll.\n"
 
-#: tools/gst-launch.c:1113
+#: tools/gst-launch.c:1050
 msgid "Pipeline is PREROLLED ...\n"
 msgstr "Rörledningen har utfört PREROLL...\n"
 
-#: tools/gst-launch.c:1125
+#: tools/gst-launch.c:1062
 msgid "Setting pipeline to PLAYING ...\n"
 msgstr "Ställer in rörledningen till PLAYING...\n"
 
-#: tools/gst-launch.c:1132
+#: tools/gst-launch.c:1069
 msgid "ERROR: pipeline doesn't want to play.\n"
 msgstr "FEL: rörledningen vill inte spela.\n"
 
-#: tools/gst-launch.c:1150
+#: tools/gst-launch.c:1087
 msgid "EOS on shutdown enabled -- Forcing EOS on the pipeline\n"
-msgstr "EOS vid avständning aktiverad -- Tvingar EOS på rörledningen\n"
+msgstr "EOS vid avstängning aktiverad -- Tvingar EOS på rörledningen\n"
 
-#: tools/gst-launch.c:1154
-#, fuzzy
-#| msgid "EOS on shutdown enabled -- Forcing EOS on the pipeline\n"
+#: tools/gst-launch.c:1091
 msgid "EOS on shutdown enabled -- waiting for EOS after Error\n"
-msgstr "EOS vid avständning aktiverad -- Tvingar EOS på rörledningen\n"
+msgstr "EOS vid avstängning aktiverad -- Väntar på EOS efter fel\n"
 
 # EOS = End Of Stream
-#: tools/gst-launch.c:1157
+#: tools/gst-launch.c:1094
 msgid "Waiting for EOS...\n"
 msgstr "Väntar på EOS...\n"
 
-#: tools/gst-launch.c:1164
+#: tools/gst-launch.c:1101
 msgid "EOS received - stopping pipeline...\n"
 msgstr "EOS togs emot - stoppar rörledning...\n"
 
-#: tools/gst-launch.c:1168
-#, fuzzy
-#| msgid "Interrupt: Stopping pipeline ...\n"
+#: tools/gst-launch.c:1105
 msgid "Interrupt while waiting for EOS - stopping pipeline...\n"
-msgstr "Avbrott: Stoppar rörledningen ...\n"
+msgstr "Avbrott medan EOS väntades på: Stoppar rörledningen...\n"
 
-#: tools/gst-launch.c:1172
+#: tools/gst-launch.c:1109
 msgid "An error happened while waiting for EOS\n"
 msgstr "Ett fel inträffade vid väntan på EOS\n"
 
 # Felrapporterat i http://bugzilla.gnome.org/show_bug.cgi?id=137431
-#: tools/gst-launch.c:1182
+#: tools/gst-launch.c:1119
 msgid "Execution ended after %"
 msgstr "Körning avslutades efter %"
 
-#: tools/gst-launch.c:1198
+#: tools/gst-launch.c:1135
 msgid "Setting pipeline to READY ...\n"
 msgstr "Ställer in rörledningen till READY...\n"
 
-#: tools/gst-launch.c:1210
+#: tools/gst-launch.c:1147
 msgid "Setting pipeline to NULL ...\n"
 msgstr "Ställer in rörledningen till NULL...\n"
 
-#: tools/gst-launch.c:1214
+#: tools/gst-launch.c:1151
 msgid "Freeing pipeline ...\n"
 msgstr "Frigör rörledning ...\n"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-good 0.10.26.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 12:49+0200\n"
+"POT-Creation-Date: 2013-11-09 15:36+0100\n"
 "PO-Revision-Date: 2011-01-09 19:36+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -21,10 +21,10 @@ msgstr ""
 msgid "Jack server not found"
 msgstr ""
 
-#: ext/jpeg/gstjpegdec.c:924 ext/jpeg/gstjpegdec.c:1172
-#: ext/jpeg/gstjpegdec.c:1184 ext/jpeg/gstjpegdec.c:1213
-#: ext/jpeg/gstjpegdec.c:1222 ext/jpeg/gstjpegdec.c:1231
-#: ext/jpeg/gstjpegdec.c:1239
+#: ext/jpeg/gstjpegdec.c:921 ext/jpeg/gstjpegdec.c:1169
+#: ext/jpeg/gstjpegdec.c:1181 ext/jpeg/gstjpegdec.c:1210
+#: ext/jpeg/gstjpegdec.c:1219 ext/jpeg/gstjpegdec.c:1228
+#: ext/jpeg/gstjpegdec.c:1236
 msgid "Failed to decode JPEG image"
 msgstr "Misslyckades med att avkoda JPEG-bild"
 
@@ -38,35 +38,35 @@ msgstr "\"%s\" av \"%s\""
 msgid "Could not connect to server"
 msgstr "Kunde inte ansluta till servern"
 
-#: ext/soup/gstsouphttpsrc.c:658
+#: ext/soup/gstsouphttpsrc.c:659
 msgid "No URL set."
 msgstr "Ingen URL inställd."
 
-#: ext/soup/gstsouphttpsrc.c:886
+#: ext/soup/gstsouphttpsrc.c:887
 msgid "Server does not support seeking."
 msgstr "Servern saknar stöd för sökning/spolning."
 
-#: ext/soup/gstsouphttpsrc.c:1134
+#: ext/soup/gstsouphttpsrc.c:1142
 msgid "Could not resolve server name."
 msgstr "Kunde inte slå upp servernamnet."
 
-#: ext/soup/gstsouphttpsrc.c:1140
+#: ext/soup/gstsouphttpsrc.c:1148
 msgid "Could not establish connection to server."
 msgstr "Kunde inte etablera anslutning till servern."
 
-#: ext/soup/gstsouphttpsrc.c:1145
+#: ext/soup/gstsouphttpsrc.c:1153
 msgid "Secure connection setup failed."
 msgstr "Säker anslutning misslyckades."
 
-#: ext/soup/gstsouphttpsrc.c:1150
+#: ext/soup/gstsouphttpsrc.c:1158
 msgid "A network error occured, or the server closed the connection unexpectedly."
 msgstr "Ett nätverksfel inträfade eller servern stängde anslutningen oväntat."
 
-#: ext/soup/gstsouphttpsrc.c:1156
+#: ext/soup/gstsouphttpsrc.c:1164
 msgid "Server sent bad data."
 msgstr "Servern skickade felaktigt data."
 
-#: gst/avi/gstavidemux.c:5372
+#: gst/avi/gstavidemux.c:5382
 msgid "Internal data stream error."
 msgstr "Internt fel i dataström."
 
@@ -74,49 +74,49 @@ msgstr "Internt fel i dataström."
 msgid "No or invalid input audio, AVI stream will be corrupt."
 msgstr "Inget eller ogiltigt inljud. AVI-flödet kommer att skadas."
 
-#: gst/isomp4/qtdemux.c:559 gst/isomp4/qtdemux.c:563
+#: gst/isomp4/qtdemux.c:567 gst/isomp4/qtdemux.c:571
 msgid "This file contains no playable streams."
 msgstr "Den här filen innehåller inga uppspelningsbara strömmar."
 
-#: gst/isomp4/qtdemux.c:609 gst/isomp4/qtdemux.c:4564
-#: gst/isomp4/qtdemux.c:4630 gst/isomp4/qtdemux.c:4815
+#: gst/isomp4/qtdemux.c:617 gst/isomp4/qtdemux.c:4603
+#: gst/isomp4/qtdemux.c:4670 gst/isomp4/qtdemux.c:4872
 msgid "This file is invalid and cannot be played."
 msgstr "Den här filen är ogiltig och kan inte spelas upp."
 
-#: gst/isomp4/qtdemux.c:2251
+#: gst/isomp4/qtdemux.c:2282
 msgid "Cannot play stream because it is encrypted with PlayReady DRM."
 msgstr ""
 
-#: gst/isomp4/qtdemux.c:2816 gst/isomp4/qtdemux.c:2892
-#: gst/isomp4/qtdemux.c:2935 gst/isomp4/qtdemux.c:5449
-#: gst/isomp4/qtdemux.c:5456 gst/isomp4/qtdemux.c:6098
-#: gst/isomp4/qtdemux.c:6534 gst/isomp4/qtdemux.c:6541
-#: gst/isomp4/qtdemux.c:8344
+#: gst/isomp4/qtdemux.c:2847 gst/isomp4/qtdemux.c:2923
+#: gst/isomp4/qtdemux.c:2966 gst/isomp4/qtdemux.c:5548
+#: gst/isomp4/qtdemux.c:5555 gst/isomp4/qtdemux.c:6197
+#: gst/isomp4/qtdemux.c:6633 gst/isomp4/qtdemux.c:6640
+#: gst/isomp4/qtdemux.c:8444
 msgid "This file is corrupt and cannot be played."
 msgstr "Den här filen är skadad och kan inte spelas upp."
 
-#: gst/isomp4/qtdemux.c:3026
+#: gst/isomp4/qtdemux.c:3057
 msgid "Invalid atom size."
 msgstr "Ogiltig atomstorlek."
 
-#: gst/isomp4/qtdemux.c:3094
+#: gst/isomp4/qtdemux.c:3125
 msgid "This file is incomplete and cannot be played."
 msgstr "Den här filen är inte fullständig och kan inte spelas upp."
 
-#: gst/isomp4/qtdemux.c:7197
+#: gst/isomp4/qtdemux.c:7296
 msgid "The video in this file might not play correctly."
 msgstr "Videon i den här filen kanske inte kan spelas upp korrekt."
 
-#: gst/isomp4/qtdemux.c:8381
+#: gst/isomp4/qtdemux.c:8481
 #, c-format
 msgid "This file contains too many streams. Only playing first %d"
 msgstr "Den här filen innehåller för många strömmar. Spelar endast upp de första %d"
 
-#: gst/rtsp/gstrtspsrc.c:5750
+#: gst/rtsp/gstrtspsrc.c:5788
 msgid "No supported stream was found. You might need to install a GStreamer RTSP extension plugin for Real media streams."
 msgstr "Ingen ström som stöds hittades. Du kanske behöver installera en GStreamer-insticksmodul för RTSP för Real Media-strömmar."
 
-#: gst/rtsp/gstrtspsrc.c:5755
+#: gst/rtsp/gstrtspsrc.c:5793
 msgid "No supported stream was found. You might need to allow more transport protocols or may otherwise be missing the right GStreamer RTSP extension plugin."
 msgstr "Ingen ström som stöds hittades. Du kanske behöver tillåta fler transportprotokoll eller så saknar du kanske det rätta GStreamer-tillägget för RTSP."
 
@@ -243,7 +243,7 @@ msgstr "AUX 1 ut"
 msgid "AUX 2 Out"
 msgstr "AUX 2 ut"
 
-#: sys/v4l2/gstv4l2bufferpool.c:1136
+#: sys/v4l2/gstv4l2bufferpool.c:1168
 #, c-format
 msgid "Error reading %d bytes from device '%s'."
 msgstr "Fel vid läsning av %d byte från enheten \"%s\"."
